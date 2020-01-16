@@ -1,0 +1,48 @@
+.navbar a.navbar-brand{
+color:black;
+}
+
+div.jumbotron{
+background-image: url("../img/1.jpg");
+background-repeat: no-repeat;
+background-color: azure;
+background-position: center;
+color: white;
+}
+.jumbotron hr{
+    color: white;
+}
+.card img{
+   height: 250px;
+}
+
+.footer{
+background-color: #f2f2f2;
+}
+
+.footer-copyright{
+    background-color:#E5E7E8;
+}
+
+.eventos .evento-columna a{
+    text-decoration: none;
+}
+
+.img-wall{
+    height: 550px;
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-color: azure;
+    background-position: center;
+    color: white; 
+}
+
+a.user{
+    pointer-events: none;
+    cursor: default;
+}
+
+button a.linkDefault{
+    text-decoration: none;
+    color: white;
+}

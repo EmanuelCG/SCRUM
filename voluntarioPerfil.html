@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soy Voluntario</title>
+</head>
+<body>
+    <!---- MENU ----->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-heart"></i>
+                Soy Voluntario
+            </a>
+            <div class="navbar-nav  align-items-center">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cuenta</a>
+                    </li>
+                    <li class="ml-5 active">
+                        <a class="nav-link user" href="#">Emanuel Cotrina</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary ml-3"><a href="login.html"
+                                style="color:white;">Cerrar Sesión</a></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-perfil-list" data-toggle="list"
+                        href="#list-perfil" role="tab" aria-controls="home">Ver perfil público</a>
+                    <a class="list-group-item list-group-item-action" id="list-cuenta-list" data-toggle="list"
+                        href="#list-cuenta" role="tab" aria-controls="profile">Cuenta</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent" style="width: 70%;">
+                    <div class="tab-pane fade show active" id="list-perfil" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        <form>
+                            <div class="form-group">
+                                <h3>Perfil Público</h3>
+                                <p>Añade información sobre ti</p>
+                                <label for="nombre">Nombres</label>
+                                <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">Ingresa tus nombres completos</small>
+                                <label for="apellido">Apellidos</label>
+                                <input type="text" class="form-control" id="apellido" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">Ingresa tus apellidos</small>
+                                <label for="telefono">Telefono</label>
+                                <input type="text" class="form-control" id="telefono" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">Número de celular</small>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="list-cuenta" role="tabpanel" aria-labelledby="list-profile-list">
+                        <h3>Cuenta</h3>
+                        <p>Edita la configuración de tu cuenta y cambia la contraseña aquí.</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="password" class="form-control mb-3" id="exampleInputPassword1"
+                                    placeholder="Actualiza tu correo electrónico">
+                                <input type="email" class="form-control mb-3" id="email"
+                                    placeholder="Escribe la contraseña actual">
+                                <input type="password" class="form-control mb-3" id="exampleInputPassword1"
+                                    placeholder="Escribe la contraseña nueva">
+                                <input type="password" class="form-control mb-3" id="exampleInputPassword1"
+                                    placeholder="Escribe la contraseña otra vez">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---- FOOTER ---->
+    <footer class="footer mt-3">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-8 mt-4 md-0">
+                    <h4>Se parte de esta experiencia</h4>
+                    <p><em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus consequuntur, minima
+                            aliquam reiciendis et libero, illum cupiditate.</em></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mt-4 md-0">
+                    <h4>Suscribete a nuestro boletín</h4>
+                    <form class="form-inline">
+                        <label class="sr-only" for="inlineFormInputName2">Name</label>
+                        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2"
+                            placeholder="Jane Doe">
+
+                        <label class="sr-only" for="inlineFormInputGroupUsername2">Correo</label>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
+                                placeholder="Correo">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Suscribete</button>
+                    </form>
+                </div>
+
+                <div class="col-md-4 mt-4 md-0 text-center">
+                    <i class="fab fa-facebook display-4"></i>
+                    <i class="fab fa-instagram display-4 ml-3"></i>
+                    <i class="fab fa-twitter display-4 ml-3"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center mt-5 pt-3 pb-3">© 2020 Copyright:
+            <a href="index.html"> Soy Voluntario</a>
+        </div>
+        <!-- Copyright -->
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
