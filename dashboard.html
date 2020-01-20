@@ -38,172 +38,165 @@
             </div>
         </div>
     </nav>
+    <!-- FIN MENU -->
+    <!-- CONTENIDO -->
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-start mt-5 mb-5">
             <div class="col-3 text-justify-left">
                 <h5>Plataforma de Administración</h5>
                 <h6>Usuario</h6><span>Jaen Herrera</span>
             </div>
-            <div class="col-3">
-                <div class="container-fuid">
-                    <!-- Large modal -->
-                    <button type="button" class="btn-modal p-3" data-toggle="modal" data-target=".bd-example-modal-lg">
-                        <p class="lead">Voluntarios registrados</p>
-                        <h6>120</h6>
-                    </button>
-
-                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content p-3">
-                                <p class="lead">Eventos realizados</p>
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                    <button type="button" class="btn btn-primary">Guardar Cambios</button>
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="container-fuid">
+                            <!-- SHOW TABLAS  -->
+                            <button type="button" class="btn-modal p-3" style="background-color: #9f9fa3;" data-toggle="modal"
+                                data-target=".bd-example-modal-xl">
+                                <p class="lead">&nbsp;&nbsp; Eventos creados &nbsp;&nbsp;</p>
+                                <h6>80</h6>
+                            </button>
+                            <!-- <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content p-3">
+                                        <p class="lead">Eventos creados</p>
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Nombre</th>
+                                                    <th scope="col">Categoria</th>
+                                                    <th scope="col">Fecha de inicio</th>
+                                                    <th scope="col">Fecha de fin</th>
+                                                    <th scope="col">Detalle</th>
+                                                    <th scope="col">Cantidad de Participantes</th>
+                                                    <th scope="col">Ubicación</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </div> -->
+                            <!-- FIN SHOW TABLAS -->
                         </div>
                     </div>
+                    <div class="col-4">
+                        <div class="container-fuid">
+                            <!-- SHOW TABLAS  -->
+                            <button type="button" class="btn-modal p-3" data-toggle="modal"
+                                data-target=".bd-example-modal-xl" style="background-color:#9f9fa3;">
+                                <p class="lead">Voluntarios registrados</p>
+                                <h6>120</h6>
+                            </button>
+                            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog"
+                                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content p-3">
+                                        <p class="lead">Voluntarios registrados</p>
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Nombre</th>
+                                                    <th scope="col">Apellido Materno</th>
+                                                    <th scope="col">Apellido Paterno</th>
+                                                    <th scope="col">Correo</th>
+                                                    <th scope="col">Telefono</th>
+                                                    <th scope="col">N° de documento</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Boku</td>
+                                                    <td>No</td>
+                                                    <td>Hero</td>
+                                                    <td>boku@index.com</td>
+                                                    <td>98989898</td>
+                                                    <td>45069483</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN SHOW TABLAS -->
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="container-fuid">
+                            <!-- SHOW TABLAS  -->
+                            <button type="button" class="btn-modal p-3" style="background-color: #9f9fa3;" data-toggle="modal"
+                                data-target=".bd-example-modal-xl">
+                                <p class="lead">Organizaciones registradas</p>
+                                <h6>60</h6>
+                            </button>
+                            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content p-3">
+                                        <p class="lead">Organizaciones registradas</p>
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Nombre</th>
+                                                    <th scope="col">Apellido Materno</th>
+                                                    <th scope="col">Apellido Paterno</th>
+                                                    <th scope="col">Correo</th>
+                                                    <th scope="col">Telefono</th>
+                                                    <th scope="col">N° de documento</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Boku</td>
+                                                    <td>No</td>
+                                                    <td>Hero</td>
+                                                    <td>boku@index.com</td>
+                                                    <td>98989898</td>
+                                                    <td>45069483</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                            <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FIN SHOW TABLAS -->
+                        </div>
+                    </div>
+
+
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="container-fuid">
-                    <!-- Large modal -->
-                    <button type="button" class="btn-modal p-3" data-toggle="modal" data-target=".bd-example-modal-lg">
-                        <p class="lead">Voluntarios registrados</p>
-                        <h6>120</h6>
-                    </button>
-
-                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content p-3">
-                                <p class="lead">Voluntarios registrados a la fecha:</p>
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                    <button type="button" class="btn btn-primary">Guardar Cambios</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="container-fuid">
-                    <!-- Large modal -->
-                    <button type="button" class="btn-modal p-3" data-toggle="modal" data-target=".bd-example-modal-lg">
-                        <p class="lead">Voluntarios registrados</p>
-                        <h6>120</h6>
-                    </button>
-
-                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content p-3">
-                                <p class="lead">Voluntarios registrados a la fecha:</p>
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                                    <button type="button" class="btn btn-primary">Guardar Cambios</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="row mt-5">
                 </div>
             </div>
         </div>
     </div>
+    <!-- CONTENIDO -->
     <!---- FOOTER ---->
-    <footer class="footer mt-3 fixed-bottom">
+    <footer class="footer">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
                 <div class="col-md-8 mt-4 md-0">
@@ -243,9 +236,11 @@
         <div class="footer-copyright text-center mt-5 pt-3 pb-3">© 2020 Copyright:
             <a href="index.html"> Soy Voluntario</a>
         </div>
-        <!-- Copyright -->
+        <!-- FIN Copyright -->
         </div>
     </footer>
+    <!-- FIN FOOTER-->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>

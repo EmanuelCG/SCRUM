@@ -47,7 +47,15 @@ button a.linkDefault{
     color: white;
 }
 
+button a.linkDefault2{
+    text-decoration: none;
+    color: #2098D1;
+}
+
 button.btn-modal{
+    color: #fff;
+        outline-offset: 0;
+    outline: 0;
     border: none;
     border-radius: 5px;
     vertical-align: middle;
@@ -63,6 +71,8 @@ button.btn-modal{
 }
 
 button.btn-modal:hover,button.btn-modal:focus, button.btn-modal:active {
-  background-color: #2098D1;
+  background-color: #007bff !important;
   color: white;
+  outline: none;
+  border: none;
 }
